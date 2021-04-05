@@ -19,7 +19,7 @@ public class PostmanApiTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .header("content-length", equalTo("423"))
+                .header("content-length", equalTo("419"))
                 .body("data", containsString("some data"));
 
     }
