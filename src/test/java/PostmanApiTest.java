@@ -20,7 +20,7 @@ public class PostmanApiTest {
                 .then()
                 .statusCode(200)
                 .body("data", containsString("some data"))
-                .body("data", hasLength(9));
+                .body("data", hasLength(10));
 
     }
 }
